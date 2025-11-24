@@ -1,4 +1,4 @@
-# MyWorksフォルダをzip圧縮して保存
+# フォルダをzip圧縮して保存
 $folderPath = "${HOME}\MyWorkspace"
 $getDate = (Get-Date).ToString('yyyyMMdd')
 $zipFile = "MyWorkspace_${getDate}.zip"
